@@ -12,9 +12,37 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  border: 3px solid #ffd24a;
+}
 #site_header {
   background-color: #ff8523;
+  height: 160;
+  padding: 20px;
 }
-#site_header nav a { color: 
+
+.main_navigation {
+  font-size: 35px;
+  margin-left: 40px;
+}
+.main_navigation a {
   font-family: Ariel;
+  padding: 20px;
+  text-decoration: none;
+  color: #eee;
+  border: 1px;
+  border-radius: 4px;
+
+}
+#page_content {
+  padding: 20px;
+  background: white;
+  margin: 2px;
+}
+
+#page_content > section {
+  border: 3px solid white;
 }
