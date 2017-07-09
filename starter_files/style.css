@@ -37,7 +37,7 @@ body {
 }
 .main_navigation a {
   font-family: Ariel;
-  padding: 15px 88px;
+  padding: 15px 180px;
   text-decoration: none;
   color: #eee;
   border: 1.5px solid white;
@@ -65,4 +65,35 @@ ul {
 
 table {
   margin: 0;
+  border-spacing: 0px;
+}
+
+td {
+  padding: 1px;
+  border: 1px solid #046c97;
+}
+
+table thead {
+  background-color: #1fabe5;
+  color: white;
+
+}
+
+table thead td {
+  color: white;
+  border: 3px;
+}
+
+td img: {
+  width: 50px;
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+form {
+  padding: 3px;
+  background: #eee;
+  margin: 20px;
+  border-radius: 20px;
 }
