@@ -17,24 +17,31 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 90%;
   border: 3px solid #ffd24a;
+  background-image: url(img/bg.jpg);
+  background-color: #dddddd;
+  margin: auto auto 0 3px;
 }
 #site_header {
   background-color: #ff8523;
-  height: 160;
-  padding: 20px;
+  padding: 50px 0px;
+
+
+
 }
 
 .main_navigation {
-  font-size: 35px;
-  margin-left: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 .main_navigation a {
   font-family: Ariel;
-  padding: 20px;
+  padding: 15px 88px;
   text-decoration: none;
   color: #eee;
-  border: 1px;
-  border-radius: 4px;
+  border: 1.5px solid white;
+  border-radius: 5px;
 
 }
 #page_content {
@@ -45,4 +52,17 @@ body {
 
 #page_content > section {
   border: 3px solid white;
+  padding: 25px;
+}
+
+h2, h3, a{
+  color: #1fabe5;
+}
+
+ul {
+  font-weight: bold;
+}
+
+table {
+  margin: 0;
 }
